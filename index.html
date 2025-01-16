@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Recipe Finder</h1>
+            <input type="text" id="searchBar" placeholder="Search for recipes...">
+        </div>
+    </header>
+
+    <main>
+        <section id="categories">
+            <div class="category-grid">
+                <a href="category.html?cat=desserts" class="category-item">Desserts</a>
+                <a href="category.html?cat=salads" class="category-item">Salads</a>
+                <a href="category.html?cat=main" class="category-item">Main Courses</a>
+            </div>
+        </section>
+
+        <section id="featured">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-grid">
+                <a href="recipe.html?id=1" class="recipe-card">
+                    <img src="cake.jpg" alt="Chocolate Cake">
+                    <h3>Chocolate Cake</h3>
+                </a>
+                <a href="recipe.html?id=2" class="recipe-card">
+                    <img src="salad.jpg" alt="Caesar Salad">
+                    <h3>Caesar Salad</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
